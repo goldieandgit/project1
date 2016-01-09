@@ -1,0 +1,118 @@
+
+SUDOBITS – Free and Open Source Stuff
+Search
+Skip to content
+
+    Home Ubuntu
+        Apps
+            Browsers
+                Firefox
+                Chrome
+            Desktop
+                GNOME
+                KDE
+            News
+            Web
+        Linux Mint
+        Ubuntu 12.10
+        Ubuntu 12.04
+        Ubuntu Themes
+        Ubuntu wallpapers
+    Programming Tips and Tricks Contact About 
+
+gedit -	
+Applications, Programming, Tips and Tricks, Ubuntu
+TextMate for Ubuntu Linux
+April 2, 2011 Ramesh Jha	24 Comments
+
+TextMate is one of the most popular text editor, available only for Macintosh Computers(Mac OS X). If you have ever used the TextMate on Mac OS, then surely you always want to stick with it, probably due to its simplicity, productivity and features.
+
+But the problem is that “TextMate is a Mac Application, the default a proprietary text editor for MAC OS X and it is not available for any other operating system”. Well! then how will we use it on Ubuntu 10.04/10.10/11.04 or Linux Mint or Open Suse or any other Linux based OS ?  The simple solution is – To mimic the look,layout and features of TextMate, so in the end of this post we will get a TextMate like text editor. Programming is complete Fun!, when you have TextMate like a powerful code editor (Emacs, Vim, gedit, TextMate etc), rather than a bloated and painfully slow IDE.
+Why TextMate is So Popular among the Programmers ?
+
+    it is simple to use
+    Syntax Color Scheme is great
+    Auto completion of code(e.g brackets, snippets)
+    looks great
+    it is light weight and fast
+    it increases productivity
+    File Browser, it’s easy to find the source files easily
+
+gedit - textmate
+
+Linux based Distributions (in short ‘distros’) have the default(GNOME based distros) text editor named – gedit, a free and open source text editor with a lot of powerful features and flexibility to extend the functionality by means of plugins. Therefore we are going to transform the gedit to textmate in few simple steps, so that gedit text editor will finally look (and almost behave) like TextMate. Actually you can customize gedit not only on Ubuntu but also on other Linux based distro, that uses gnome desktop or having gedit packages installed on the system.
+Transforming gedit to TextMate in 4 simple steps
+
+#1 :  Install gedit plugins
+
+To install extra plugins, type the command at the terminal/command line/shell, followed by login password(If required) –
+
+sudo apt-get install gedit-plugins
+
+#2 : Install TextMate Fonts
+
+Download the font – Monaco,which is the default font used in TextMate. Then copy it to home->username ->.fonts (hit CTRL+H to see hidden files).
+
+#3 : Install Syntax color Scheme
+
+download the DarkMate theme coloring scheme and install it from gedit. To install open gedit and click on Edit -> Preferences -> Font & Colors. Then click on Add button and locate the download file(darkmate.xml).
+
+#4 : Install File Browser plugin
+
+Download the class browser plugin ; Extract it to FileSystem-> usr-> share->gedit2->plugins. Then activate it by select the check box from gedit(Edit->Preferences->Plugins). Here is one snapshot ..if you have any doubt(or reply through comment,in case of any problem).
+
+gedit-plugins
+
+#5. Auto Completion (with Esc) and Tab Completion (expand code snippets using tab triggers)
+
+With the gedit-plugin package, you will also get the snippets plugins, just enable that plugin – to enjoy tab completion.
+
+Auto completion is another cool feature – that looks up the source code for auto completion of a variable_name (using Esc key) – so that you don’t have to type the full lengthy name.
+
+Download textmate style autocompletion for gedit
+
+To install the plugin, first extract the package and run install.sh. Finally, you just need to enable it from gedit -> preferences ->plugins.
+Update! Try GMate plugin it’s great! See gedit plugins for Rails Developers for more details, #5 added.
+IDEprogramming editortext editortextmate
+Post navigation
+Previous PostUbuntu 11.04 Beta 1 Released – Available for Download!
+Next Posthow to move Firefox 4 – home button back to left in Ubuntu
+Exploring FOSS for Fun :-)
+Get Free updates
+
+About Author
+ramesh jha
+
+Ramesh Jha is a Human from the planet 'Earth'. He is also an open source/Free Software enthusiast, Web Developer and an Optimist. Read More.
+
+Get in touch : ramesh @ rameshjha.com
+My Recent Experiments:
+
+    Port Checker - Check open ports online.
+    Signature Maker - Create your signature online.
+    Income Tax Calculator (India) - Get a rough estimate on your net income tax liability .
+    Assemble Your PC - PC builder application.
+
+
+Other websites (weekend/fun projects) :
+
+Word Unscrambler. Scrabble Word Finder- a simple scrabble solver. Jumble Solver
+, Slogan Generator (built using Sinatra and Foundation) And Syllable Counter, SoundCloud Downloader
+PPF Calculator
+
+My other blog : Ramesh Jha (jekyll based)
+Recent Posts
+
+    KeePassX – The Best Password Manager for Ubuntu/Linux
+    Adding SSL to a Rails Application
+    Monitor your bandwidth usage with vnstat [Ubuntu/Linux]
+    Deploying static websites to VPS using git
+    Calculate your income tax liability using this free online tool [India]
+    Fish – A user friendly command line shell for Ubuntu/Linux
+    Skeleton – A lightweight CSS framework for your next side project
+    Email Checker – Free online tool for verifying an email address
+    Taskwarrior – Terminal based TODO Application
+    A Simple PC Builder Site for Indian Users
+
+© 2010-2016 Ramesh Jha. Privacy Policy - Financial Tools (India) - Sitemap
+
