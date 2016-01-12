@@ -1,3 +1,4 @@
+test it again to understand
 update date 1/11/2016
 
 SUDOBITS – Free and Open Source Stuff
@@ -22,9 +23,9 @@ Skip to content
     Programming Tips and Tricks Contact About 
 
 gedit -	
-Applications, Programming, Tips and Tricks, Ubuntu
-TextMate for Ubuntu Linux
 April 2, 2011 Ramesh Jha	24 Comments
+
+I removed it
 
 TextMate is one of the most popular text editor, available only for Macintosh Computers(Mac OS X). If you have ever used the TextMate on Mac OS, then surely you always want to stick with it, probably due to its simplicity, productivity and features.
 
@@ -40,6 +41,11 @@ Why TextMate is So Popular among the Programmers ?
     File Browser, it’s easy to find the source files easily
 
 gedit - textmate
+
+
+
+abcdefg 
+
 
 Linux based Distributions (in short ‘distros’) have the default(GNOME based distros) text editor named – gedit, a free and open source text editor with a lot of powerful features and flexibility to extend the functionality by means of plugins. Therefore we are going to transform the gedit to textmate in few simple steps, so that gedit text editor will finally look (and almost behave) like TextMate. Actually you can customize gedit not only on Ubuntu but also on other Linux based distro, that uses gnome desktop or having gedit packages installed on the system.
 Transforming gedit to TextMate in 4 simple steps
